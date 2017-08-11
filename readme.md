@@ -11,6 +11,30 @@
 
 Laravel Passport is an OAuth2 server and API authentication package that is simple and enjoyable to use.
 
+## Installation
+
+    composer require liliom/passport
+
+## Custom Database Connection
+
+By default, Passport will use the default connection name, but now you can use custom database connection for Passport by adding your connection name in `config/auth.php` (guards.api.connection)
+
+```php
+....
+
+'guards' => [
+    ...
+
+    'api' => [
+        'driver' => 'passport',
+        'provider' => 'users',
+        'connection' => env('PASSPORT_CONNECTION'),
+    ],
+],
+
+...
+```
+
 ## Official Documentation
 
 Documentation for Passport can be found on the [Laravel website](http://laravel.com/docs/master/passport).
