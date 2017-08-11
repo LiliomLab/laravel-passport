@@ -36,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Liliom\\Passport\\": "src/"
+            "Laravel\\Passport\\": "src/"
         }
     },
     "extra": {
@@ -45,7 +45,7 @@
         },
         "laravel": {
             "providers": [
-                "Liliom\\Passport\\PassportServiceProvider"
+                "Laravel\\Passport\\PassportServiceProvider"
             ]
         }
     },
