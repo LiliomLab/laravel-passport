@@ -1,5 +1,5 @@
 {
-    "name": "LiliomLab/passport",
+    "name": "liliom/passport",
     "description": "Fork of Laravel Passport provides OAuth2 server support to Laravel, with added support for custom database connection.",
     "keywords": ["laravel", "passport", "oauth"],
     "license": "MIT",
