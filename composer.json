@@ -1,6 +1,6 @@
 {
-    "name": "laravel/passport",
-    "description": "Laravel Passport provides OAuth2 server support to Laravel.",
+    "name": "LiliomLab/passport",
+    "description": "Fork of Laravel Passport provides OAuth2 server support to Laravel, with added support for custom database connection.",
     "keywords": ["laravel", "passport", "oauth"],
     "license": "MIT",
     "support": {
@@ -9,8 +9,8 @@
     },
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+            "name": "Hussam Abd",
+            "email": "hussam3bd@gmail.com"
         }
     ],
     "require": {
@@ -36,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Passport\\": "src/"
+            "Liliom\\Passport\\": "src/"
         }
     },
     "extra": {
@@ -45,7 +45,7 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Passport\\PassportServiceProvider"
+                "Liliom\\Passport\\PassportServiceProvider"
             ]
         }
     },
