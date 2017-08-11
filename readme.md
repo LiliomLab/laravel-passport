@@ -13,7 +13,7 @@ Laravel Passport is an OAuth2 server and API authentication package that is simp
 
 ## Installation
 
-    composer require liliom/passport
+    composer require liliom/passport 3.0.x-dev
 
 ## Custom Database Connection
 
